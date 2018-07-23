@@ -1,17 +1,19 @@
 package com.springcloud.timeservice.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Calendar;
+import java.util.TimeZone;
 
 @RestController
 public class MainController {
 
     @GetMapping
-    public String getTime() {
+    public String getTime(@RequestHeader("x-zone") String timeZone) {
 
-        final Calendar now = Calendar.getInstance();
+        final Calendar now = Calendar.getInstance(TimeZone.getTimeZone(timeZone));
         final String[] strDays =
             new String[] { "Sunday", "Monday", "Tuesday", "Wednesday", "Thusday", "Friday", "Saturday" };
         final String date = (now.get(Calendar.MONTH) + 1) + "-" + now.get(Calendar.DATE) + "-" + now.get(Calendar.YEAR);
