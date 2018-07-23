@@ -7,7 +7,7 @@ It has four modules:
  This module contains a simple gateway service using the Netflix Zuul.
  
 * [Discovery-server module](https://github.com/geraldoms/spring-cloud-gateway/tree/master/discovery-server):
-This module contains the service discovery to keep the info to access the services.
+This module contains the service discovery using the Netflix Eureka to keep the info to access the services.
 
 * [Weather-service module](https://github.com/geraldoms/spring-cloud-gateway/tree/master/weather-service): 
 This module contains the weather service which returns a random weather info.
