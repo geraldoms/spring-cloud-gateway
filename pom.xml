@@ -11,6 +11,8 @@
     <modules>
         <module>discovery-server</module>
         <module>gateway-service</module>
+        <module>weather-service</module>
+        <module>time-service</module>
     </modules>
 
 </project>
