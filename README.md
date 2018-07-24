@@ -13,7 +13,7 @@ This module contains the service discovery using the Netflix Eureka to keep the 
 This module contains the weather service which returns a random weather info.
 
 * [Time-service module](https://github.com/geraldoms/spring-cloud-gateway/tree/master/time-service): 
-This module contains the weather service which returns the current date and time.
+This module contains the time service which returns the current date and time.
 
 To run this example you need to execute Discovery-server first. The order of the remaining services are not really important. 
 A basic flow of the application is shown in the figure below.
