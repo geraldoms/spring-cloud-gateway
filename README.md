@@ -19,7 +19,7 @@ To run this example you need to execute Discovery-server first. The order of the
 A basic flow of the application is shown in the figure below.
 
 <p align="center">
-  <img width="460" height="500" src="https://user-images.githubusercontent.com/13106549/43080628-1970cb38-8e5e-11e8-9884-d88328077a94.png">
+  <img width="360" height="400" src="https://user-images.githubusercontent.com/13106549/43080628-1970cb38-8e5e-11e8-9884-d88328077a94.png">
 </p>
 
 ## Requirements
