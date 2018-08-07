@@ -1,16 +1,16 @@
 # Spring Cloud Gateway
 
-This is a very basic example of Gateway Service using Netflix Zuul from Spring Cloud.
+This is a very basic example of API Gateway using Netflix Zuul from Spring Cloud.
 It has four modules:
 
 * [Gateway-service module](https://github.com/geraldoms/spring-cloud-gateway/tree/master/gateway-service): 
- This module contains a simple gateway service using the Netflix Zuul.
+ This module contains a simple gateway service using Netflix Zuul.
  
 * [Discovery-server module](https://github.com/geraldoms/spring-cloud-gateway/tree/master/discovery-server):
 This module contains the service discovery using the Netflix Eureka to keep the info to access the services.
 
 * [Weather-service module](https://github.com/geraldoms/spring-cloud-gateway/tree/master/weather-service): 
-This module contains the weather service which returns a random weather info.
+This module contains the weather service which returns a random weather condition.
 
 * [Time-service module](https://github.com/geraldoms/spring-cloud-gateway/tree/master/time-service): 
 This module contains the time service which returns the current date and time.
@@ -19,7 +19,7 @@ To run this example you need to execute Discovery-server first. The order of the
 A basic flow of the application is shown in the figure below.
 
 <p align="center">
-  <img width="360" height="400" src="https://user-images.githubusercontent.com/13106549/43080628-1970cb38-8e5e-11e8-9884-d88328077a94.png">
+  <img width="340" height="380" src="https://user-images.githubusercontent.com/13106549/43080628-1970cb38-8e5e-11e8-9884-d88328077a94.png">
 </p>
 
 ## Requirements
