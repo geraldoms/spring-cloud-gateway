@@ -31,7 +31,7 @@ A basic flow of the application is shown in the figure below.
 
 ## Usage 
 
-After running the command above (in the installation section), you can start the application by running the the following commands:   
+After running the command above (in the installation section), you can start the application by running the following commands:   
  
  1. `java -jar discovery-server/target/discovery-server-0.0.1-SNAPSHOT.jar`;
  2. `java -jar gateway-service/target/gateway-service-0.0.1-SNAPSHOT.jar`
@@ -39,7 +39,7 @@ After running the command above (in the installation section), you can start the
  4. `java -jar time-service/target/time-service-0.0.1-SNAPSHOT.jar`;
 
 The weather-service and time-service will start using the ports 8282 and 8281, respectively. 
-However, they can be accessed thorough the Gateway service at `http://localhost:8080/`.
+However, they can be accessed through the API Gateway at `http://localhost:8080/`.
 
 ## Request samples 
 
